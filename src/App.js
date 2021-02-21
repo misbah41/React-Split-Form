@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
 
+// import FormApp from './components/form/form';
+// import UncontrolForm from './components/form/uncontrolForm'
+// import ControledForm from './components/form/controledForm.jsx'
+// import SplitForm from './components/splitForm/SplitForm'
+import SingupForm from './components/singupForm/singupMain'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container mt-5">
+        <div className="row justify-content-center">
+          <div className="col-sm-7">
+            {/* <FormApp /> */}
+            {/* <UncontrolForm/> */}
+            {/* <ControledForm/> */}
+            {/* <SplitForm/> */}
+            <SingupForm />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+
